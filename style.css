@@ -255,13 +255,14 @@ footer {
 @media screen and (max-width: 576px) {
     .main-section {
         /* 📍 Внутренние отступы сверху и снизу */
-        padding-top: 30px;
+        padding: 30px 0 60px;
         /*padding-bottom: 100px;*/
     }
 
     .main-section .wrapper {
         /* 📍 Отступ между изображением и блоком с текстом */
         padding-bottom: 40px;
+        gap: 40px;
     }
 
     .main-title {
@@ -273,5 +274,6 @@ footer {
     .info-wrapper {
         /* 📍 Отступ между изображением и блоком с текстом */
         padding: 50px 20px;
+        gap: 50px;
     }
 }
